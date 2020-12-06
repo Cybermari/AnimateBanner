@@ -17,7 +17,7 @@ echo
 echo "🔺My Github Account = https://github.com/Cybermari"
 echo
 
-#banner
+#userbanner
 echo -e " $red 🔥 What is your banner name ?"
 read varbanner
 echo
@@ -29,11 +29,11 @@ read anime
 echo
 
 
-#cowsay
+#cowsayname
 echo -e " $red 🔥 What is your cowsay name ?"
 read varcowsay
 
-#creat temp
+#creat tempfile
 echo "cowsay -f eyes "$varcowsay" | lolcat "> cow.txt
 echo "figlet "$varbanner" | lolcat --"$anime" " > ban.txt
 echo "clear"> cls.txt
@@ -46,7 +46,7 @@ cat "cls.txt">>/data/data/com.termux/files/usr/etc/zshrc
 cat "cow.txt">>/data/data/com.termux/files/usr/etc/zshrc
 cat "ban.txt">>/data/data/com.termux/files/usr/etc/zshrc
 
-#bannerdelet
+#beforebannerdelet
 rm -rf cls.txt
 rm -rf cow.txt
 rm -rf ban.txt
