@@ -24,7 +24,7 @@ echo
 
 #Animation Banner
 echo -e " $red 🔥 If You Want Animation Banner"
-echo -e  "Plse Type ðŸ‘‰animateðŸ‘ˆ "
+echo -e  "Plse Type 👉 animate 👈"
 read anime
 echo
 
